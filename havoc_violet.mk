@@ -17,6 +17,7 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_WIFI_EXT := true
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+TARGET_INCREMENTAL_BLOCK_BASED := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := havoc_violet
