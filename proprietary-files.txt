@@ -1444,6 +1444,7 @@ vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc
 vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc
 vendor/etc/init/wfdvndservice.rc
 vendor/etc/wfdconfig.xml
+vendor/lib/libFileMux_proprietary.so
 vendor/lib/libmmrtpdecoder_proprietary.so
 vendor/lib/libmmrtpencoder_proprietary.so
 vendor/lib/libwfdaac_vendor.so
@@ -1468,5 +1469,7 @@ vendor/lib/libwfduibcsrcinterface_proprietary.so
 vendor/lib/libwfduibcsrc_proprietary.so
 vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so
 vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so
+vendor/lib/libmmparser_lite_proprietary.so
+vendor/lib64/libmmparser_lite_proprietary.so
 vendor/lib64/libwfdhdcpcp.so
 vendor/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so
