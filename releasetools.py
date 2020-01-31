@@ -19,6 +19,7 @@ import common
 import re
 
 def FullOTA_InstallEnd(info):
+  OTA_UpdateFirmware(info)
   OTA_InstallEnd(info)
   return
 
