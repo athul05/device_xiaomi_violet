@@ -448,7 +448,3 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
-
-# PixelWallpapers
-PRODUCT_PACKAGES += \
-    PixelLiveWallpaperPrebuilt
