@@ -235,9 +235,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-service
 
-PRODUCT_PACKAGES += \
-    NoCutoutOverlay
-
 # IFAA manager
 PRODUCT_PACKAGES += \
     org.ifaa.android.manager
