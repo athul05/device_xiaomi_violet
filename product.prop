@@ -14,7 +14,7 @@ persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
 
 # Graphics
- debug.hwui.renderer=skiavk
+ debug.hwui.renderer=skiagl
 
 # Camera
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
