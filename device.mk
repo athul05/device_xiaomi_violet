@@ -22,9 +22,8 @@ TARGET_SCREEN_WIDTH := 1080
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-havoc
+    $(LOCAL_PATH)/overlay-syberia
 
-PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
@@ -450,6 +449,3 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
-# PixelWallpapers
-PRODUCT_PACKAGES += \
-    PixelLiveWallpaperPrebuilt
